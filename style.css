@@ -27,10 +27,24 @@
     width: 50%;
 }
 .c-style {
-    height: 300px;
+    height: 450px;
     background-color: #F8FFFB;
     border: none;
     transition: 0.4s;
+}
+.c-height{
+    height: 450px;
+}
+@media screen and (min-width:768px){
+    .c-style {
+        height: 350px;
+        background-color: #F8FFFB;
+        border: none;
+        transition: 0.4s;
+    } 
+    .c-height{
+        height: 350px;
+    }
 }
 .c-style:hover{
 background-color: #fff;
